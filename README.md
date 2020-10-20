@@ -9,6 +9,8 @@ Describe location + admin contact information
 
 Easy to deploy and secure
 
+Stuck on some part ? Feel free to contact me! 
+
 # How-to deploy
 Make sure u change the env variables to the desired information!
 ```
@@ -24,3 +26,6 @@ Make sure u change the env variables to the desired information!
 
 # Important notes
 Containers don't have access to /proc - so you must provide it per the example above. snmpd has been modified to use /host_proc for your convenience.
+
+Generated RSA keys are used to get the AES and SHA512 keys so guarantee unique keys!
+
