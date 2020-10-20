@@ -10,7 +10,7 @@ Make sure u change the env variables to the desired information!
   --read-only \
   -p 161:161/udp \
   --name snmpd \	
-  -e LOCATION= location -e NAME=name MAIL=mail \	
+  -e LOCATION=location -e NAME=name -e MAIL=mail -e USER=rouser \	
   bushidosan/snmpd
 ```
 
