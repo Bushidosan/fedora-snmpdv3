@@ -1,5 +1,5 @@
-# fedora-snmpdv3
-Docker image to provide snmpd in situations where it's difficult (like CoreOS)
+# Install snmpv3 on fedora using docker/podman containers! 
+Docker image to provide snmpd in situations where it's difficult (like fedoraOS)
 
 # How-to deploy
 Make sure u change the env variables to the desired information!
