@@ -23,7 +23,7 @@ Make sure u change the env variables to the desired information!
   -p 161:161/udp \
   --name snmpd \	
   -e LOCATION=location -e NAME=name -e MAIL=mail -e USER=rouser \	
-  bushidosan/snmpd
+  bushidosan/fedora-snmpv3
 ```
 
 # Important notes
