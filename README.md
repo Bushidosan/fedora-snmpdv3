@@ -13,5 +13,7 @@ Launch listening on "public" like this:
   -e LOCATION= location -e NAME=name MAIL=mail
   bushidosan/snmpd
 </code>  
+
+
 # Important notes
 Containers don't have access to /proc - so you must provide it per the examples above. snmpd has been modified to use /host_proc for your convenience.
