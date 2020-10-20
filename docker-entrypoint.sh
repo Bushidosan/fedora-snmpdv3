@@ -14,6 +14,10 @@ if [ -z ${MAIL+x} ]; then
   echo "Undefined \"MAIL\" env" && exit 1
 fi
 
+if [ -z ${USERNAME+x} ]; then
+  echo "Undefined \"USERNAME\" env" && exit 1
+fi
+
 clear
 
 GREEN='\033[1;32m'
@@ -39,5 +43,9 @@ sed -i -e 's/AESKEY/'$AES'/' /etc/snmp/snmpd.conf
 sed -i -e 's/LOCATION/'$LOCATION'/' /etc/snmp/snmpd.conf
 sed -i -e 's/NAME/'$NAME'/' /etc/snmp/snmpd.conf
 sed -i -e 's/MAIL/'$MAIL'/' /etc/snmp/snmpd.conf
+
+# Places the Read-only username on the right place in conf file
+sed -i -e 's/USERNAME/'$USERNAME'/' /etc/snmp/snmpd.conf
+
 # Start primary process
 exec "$@"
