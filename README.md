@@ -7,7 +7,7 @@ Make your own read-only user.
 
 Describe location + admin contact information
 
-Easy to deploy and #Secure
+Easy to deploy and secure
 
 # How-to deploy
 Make sure u change the env variables to the desired information!
