@@ -1,5 +1,8 @@
 # Install snmpv3 on fedora using docker/podman containers! 
 Docker image to provide snmpd in situations where it's difficult (like fedoraOS)
+Automated AES en SHA512 keygen.
+Make your own read-only user.
+Describe location + admin contact information
 
 # How-to deploy
 Make sure u change the env variables to the desired information!
