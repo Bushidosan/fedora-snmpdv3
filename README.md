@@ -5,14 +5,14 @@ Docker image to provide snmpd in situations where it's difficult (like CoreOS)
 Launch listening on "public" like this:
 
 <code>
-docker run -d -v /
-proc:/host_proc \
---privileged \
---read-only \
--p 161:161/udp \
---name snmpd \	
--e LOCATION= location -e NAME=name MAIL=mail \	
-bushidosan/snmpd
+  docker run -d -v /
+  proc:/host_proc \
+  --privileged \
+  --read-only \
+  -p 161:161/udp \
+  --name snmpd \	
+  -e LOCATION= location -e NAME=name MAIL=mail \	
+  bushidosan/snmpd
 </code>  
 
 
