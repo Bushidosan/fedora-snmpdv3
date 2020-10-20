@@ -9,7 +9,7 @@ ARG VERSION="5.9"
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="Docker image to provide the net-snmp daemon" \
       org.label-schema.description="Provides snmpdv3 for FedoraOS and other small footprint environments without package managers" \
-      org.label-schema.vendor="Bushidosan Inc." \
+      org.label-schema.vendor="Bushidosan Inc." 
 
 EXPOSE 161 161/udp
 
