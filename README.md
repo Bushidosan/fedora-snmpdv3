@@ -9,6 +9,8 @@ Describe location + admin contact information
 
 Easy to deploy and secure
 
+Make sure u read the files to get a fully understanding about what u are deploying!
+
 Stuck on some part ? Feel free to contact me! 
 
 # How-to deploy
