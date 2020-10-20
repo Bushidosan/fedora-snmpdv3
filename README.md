@@ -15,4 +15,4 @@ Make sure u change the env variables to the desired information!
 ```
 
 # Important notes
-Containers don't have access to /proc - so you must provide it per the examples above. snmpd has been modified to use /host_proc for your convenience.
+Containers don't have access to /proc - so you must provide it per the example above. snmpd has been modified to use /host_proc for your convenience.
